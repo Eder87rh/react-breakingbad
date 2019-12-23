@@ -31,6 +31,9 @@ function App() {
       <Frase
         frase={frase}
       />
+      <button 
+        onClick={consultarAPI}
+      >Generar Nueva</button>
     </div>
   )
 }
